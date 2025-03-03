@@ -4,7 +4,6 @@ class Node():
         self.parent = parent
         self.action = action
 
-
 class StackFrontier():
     def __init__(self):
         self.frontier = []
@@ -25,7 +24,6 @@ class StackFrontier():
             node = self.frontier[-1]
             self.frontier = self.frontier[:-1]
             return node
-
 
 class QueueFrontier(StackFrontier):
 
