@@ -1,8 +1,8 @@
-# Actor Graph Search - Degrees of Separation
+# Actor Graph Search - Degrees of Separation 🎥
 
 Project made for submission on CS50 AI course. 
 
-The objective is to find the shortest path of connections (degrees of separation) between two actors based on movies they have starred in.
+The objective is to find the shortest path of connections (degrees of separation) between two actors based on movies they have starred in, using BFS (Breadth-First-Search).
 
 ```bash
 python degrees.py [directory]
